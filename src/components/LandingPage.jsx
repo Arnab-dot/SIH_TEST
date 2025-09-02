@@ -13,7 +13,7 @@ const OceanLandingPage = () => {
 
       {/* Here i have implemented bubbling */}
       <div className="bubbles">
-        {[...Array(20)].map((_, i) => (
+        {[...Array(200)].map((_, i) => (
           <span
             key={i}
             style={{
