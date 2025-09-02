@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import OceanLandingPage from './components/LandingPage'
-import './App.css'
+import { useState } from 'react';
+import OceanLandingPage from './components/LandingPage';
+import CursorPointer from "./components/CursorPointer";
+import './App.css';
 
 function App() {
-  return(
+  return (
     <div>
-      <OceanLandingPage />
+        <OceanLandingPage />
     </div>
-  )
+  );
 }
- 
 
-export default App
+export default App;
